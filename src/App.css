@@ -1,0 +1,67 @@
+#a {
+  background-color: white;
+}
+
+#b {
+  background-color: white;
+}
+
+#c {
+  background-color: white;
+}
+
+.container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+#layout {
+  height: 100vh;
+}
+
+#header {
+  padding: 0 25px;
+}
+
+#collapse-button {
+  /* position: absolute; */
+  /* top: 20px; */
+  /* left: 20px; */
+  /* font-size: 32px  ; */
+  /* color: '#08c'; */
+}
+
+#new-note-button {
+  font-size: 32px;
+  /* color: #fff; */
+}
+
+#prev-notes {
+  height: 100%;
+  background-color: red;
+}
+
+#editor {
+  height: 100%;
+  background-color: yellow;
+}
+
+#next-notes {
+  height: 100%;
+  background-color: red;
+}
+
+#content {
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  color: #fff;
+  height: 100%;
+  padding: 50px;
+}
+.logo{
+  width: 3.5%;
+
+}
+
